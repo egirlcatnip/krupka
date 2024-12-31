@@ -1,0 +1,11 @@
+[package]
+name = "krupka"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.1", features = ["derive"] }
+miette = { version = "7.4.0", features = ["fancy"] }
+thiserror = { version = "2.0.9" }
+
+num = { version = "0.4.3" }
